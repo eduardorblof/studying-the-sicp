@@ -1,0 +1,33 @@
+# Racket
+*.zo
+*.dep
+compiled/
+*.rkt~
+*.bak
+
+# SICP / DrRacket
+.DrRacket*
+
+# Conda / Python
+.conda/
+__pycache__/
+*.pyc
+*.pyo
+.env/
+venv/
+
+# Codex / AI tools
+.codex/
+
+# Temporários
+*.temp
+*.tmp
+*.log
+
+# VSCode
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
