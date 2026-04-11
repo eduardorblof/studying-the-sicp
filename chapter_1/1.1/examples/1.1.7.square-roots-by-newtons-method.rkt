@@ -21,3 +21,11 @@
     (sqrt-iter 1.0 x))
 
 (sqrt 9)
+
+(sqrt 1e-11)
+(sqrt 1e11)
+
+; nota-se ineficácia de good-enough? ao aplicá-lo sobre valores
+; muito grandes e muito pequenos. Tal problema de implementação
+; é devidamente tratado com new-good-enough, implementado no
+; exercício 1.7.
